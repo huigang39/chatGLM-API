@@ -59,7 +59,7 @@ docker pull huigang39/chatglm_api
 然后，运行 Docker 容器：
 
 ```bash
-docker run -p 5000:5000 -e ACCESS_KEY=your_access_key -e SECRET_KEY=your_secret_key your_image_name
+docker run -p 2333:2333 -e ACCESS_KEY=your_access_key -e SECRET_KEY=your_secret_key your_image_name
 ```
 
 同样的，运行：
