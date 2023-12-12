@@ -22,10 +22,11 @@ pip install -r requirements.txt
 首先，设置你的环境变量：
 
 ```bash
-# ACCESS_KEY 和 SECRET_KEY 需要去[火山引擎](https://www.volcengine.com/)官方注册账号获取。
 export ACCESS_KEY=your_access_key
 export SECRET_KEY=your_secret_key
 ```
+
+ACCESS_KEY 和 SECRET_KEY 需要去[火山引擎](https://www.volcengine.com/)官方注册账号获取
 
 然后，运行应用：
 
