@@ -1,7 +1,7 @@
 import requests
 
 # 设置API的URL
-url = 'http://localhost:2333/chat'  # 将localhost:5000替换为实际的API地址
+url = 'http://localhost:5000/chat'  # 将localhost:5000替换为实际的API地址
 
 # 设置请求数据
 data = {

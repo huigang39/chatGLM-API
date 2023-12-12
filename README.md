@@ -50,10 +50,16 @@ python test.py
 docker build -t your_image_name .
 ```
 
+如果你不想自己构建 Docker 镜像，那么你也可以直接 pull 我构建好的镜像：
+
+```bash
+docker pull huigang39/chatglm_api
+```
+
 然后，运行 Docker 容器：
 
 ```bash
-docker run -p 2333:2333 -e ACCESS_KEY=your_access_key -e SECRET_KEY=your_secret_key your_image_name
+docker run -p 5000:5000 -e ACCESS_KEY=your_access_key -e SECRET_KEY=your_secret_key your_image_name
 ```
 
 同样的，运行：
