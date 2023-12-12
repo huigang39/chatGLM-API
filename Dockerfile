@@ -1,5 +1,5 @@
 # 使用官方的 Python 基础镜像
-FROM python:3.9
+FROM python:3.9-slim-buster
 
 # 设置工作目录
 WORKDIR /app
@@ -19,3 +19,4 @@ EXPOSE 2333
 
 # 运行应用
 CMD ["python", "apiRequest.py"]
+CMD ["python", "test.py"]
