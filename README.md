@@ -34,7 +34,13 @@ ACCESS_KEY 和 SECRET_KEY 需要去[火山引擎](https://www.volcengine.com/)�
 python apiRequest.py
 ```
 
-你的应用现在应该可以在 `http://localhost:5000` 访问了。
+然后运行：
+
+```bash
+python test.py
+```
+
+可以看到终端返回了内容。
 
 ## Docker 部署
 
