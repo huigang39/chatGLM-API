@@ -7,13 +7,13 @@
 首先，克隆这个仓库到你的本地机器：
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/huigang39/chatGLM-API.git
 ```
 
 然后，进入项目目录并安装依赖：
 
 ```bash
-cd your-repo-name
+cd chatGLM-API
 pip install -r requirements.txt
 ```
 
