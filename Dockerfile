@@ -19,5 +19,5 @@ EXPOSE 2333
 
 # 运行应用
 CMD ["python", "apiRequest.py"]
-CMD ["sleep", "5"]
+CMD ["sleep", "50"]
 CMD ["python", "test.py"]
