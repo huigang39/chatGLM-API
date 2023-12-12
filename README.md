@@ -56,7 +56,13 @@ docker build -t your_image_name .
 docker run -p 2333:2333 -e ACCESS_KEY=your_access_key -e SECRET_KEY=your_secret_key your_image_name
 ```
 
-你的应用现在应该可以在 `http://localhost:5000` 访问了。
+同样的，运行：
+
+```bash
+python test.py
+```
+
+可以看到终端返回了内容。
 
 ## 贡献
 
