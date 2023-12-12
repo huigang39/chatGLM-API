@@ -4,9 +4,10 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# 设置VolcEngine的Access Key和Secret Key
-access_key = 'AKLTYzgwZTIzMjExYmIyNGQyOWE3ZWVkNmY0NzViODNkYTU'
-secret_key = 'TVRNeFlXWTBOemRqTm1OaU5EQmpNR0kxTTJNd05qWTJNMk5tT1RaaU9Uaw=='
+# 从环境变量中获取VolcEngine的Access Key和Secret Key
+# ACCESS_KEY=XXXXX SECRET_KEY=YYYYY python apiRequest.py
+access_key = os.getenv('ACCESS_KEY')
+secret_key = os.getenv('SECRET_KEY')
 
 # 创建MaasService实例
 maas = MaasService('maas-api.ml-platform-cn-beijing.volces.com', 'cn-beijing')
