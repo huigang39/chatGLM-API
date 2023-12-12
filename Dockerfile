@@ -15,7 +15,7 @@ ENV ACCESS_KEY your_access_key
 ENV SECRET_KEY your_secret_key
 
 # 暴露端口
-EXPOSE 2333
+# EXPOSE 2333
 
 # 运行应用
 CMD ["python", "apiRequest.py"]
