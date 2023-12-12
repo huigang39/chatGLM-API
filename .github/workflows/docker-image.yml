@@ -15,4 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: |
+        docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/chatglm_api .
+        docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} -p ${{ secrets.DOCKER_HUB_PASSWORD }}
+        docker push ${{ secrets.DOCKER_HUB_USERNAME }}/chatglm_api
