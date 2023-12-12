@@ -1,4 +1,4 @@
-# Project Name
+# chatGLM-API
 
 这是一个使用 Flask 和 VolcEngine MaaS API 的 chatGLM 聊天接口。
 
