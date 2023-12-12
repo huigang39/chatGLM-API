@@ -15,6 +15,6 @@ response = requests.post(url, json=data)
 if response.status_code == 200:
     result = response.json()
     reply = result['reply']
-    print('回应:', reply)
+    print(reply)
 else:
     print('请求失败:', response.text)
