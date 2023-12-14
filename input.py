@@ -1,6 +1,5 @@
-import requests
 import sys
-import json
+import requests
 
 def send_post_request(url, input_text):
     # 设置请求数据
